@@ -1,0 +1,139 @@
+﻿@model Sinav.Models.Urunler
+@{
+    ViewData["Title"] = "Detay";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="section">
+	<!-- container -->
+	<div class="container">
+		<!-- row -->
+		<div class="row">
+			<!-- Product main img -->
+			<div class="col-md-5 col-md-push-2">
+				<div id="product-main-img" class="slick-initialized slick-slider">
+					<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: block;">Previous</button>
+					<div class="slick-list draggable">
+						<div class="slick-track" style="opacity: 1; width: 1496px;">
+							<div class="product-preview slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 374px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; overflow: hidden; transition: opacity 300ms ease;">
+								<img src="/img/product01.png" alt="">
+								<img role="presentation" src="file:///C:/Users/TG/Desktop/electro/img/product01.png" class="zoomImg" style="position: absolute; top: -52.7074px; left: -140.884px; opacity: 0; width: 600px; height: 600px; border: none; max-width: none; max-height: none;">
+							</div><div class="product-preview slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 374px; position: relative; left: -374px; top: 0px; z-index: 998; opacity: 0; overflow: hidden;">
+								<img src="/img/product03.png" alt="">
+								<img role="presentation" src="file:///C:/Users/TG/Desktop/electro/img/product03.png" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 600px; height: 600px; border: none; max-width: none; max-height: none;">
+							</div><div class="product-preview slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" tabindex="0" style="width: 374px; position: relative; left: -748px; top: 0px; z-index: 999; opacity: 1; overflow: hidden;">
+								<img src="/img/product06.png" alt="">
+								<img role="presentation" src="file:///C:/Users/TG/Desktop/electro/img/product06.png" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 600px; height: 600px; border: none; max-width: none; max-height: none;">
+							</div><div class="product-preview slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 374px; position: relative; left: -1122px; top: 0px; z-index: 998; opacity: 0; overflow: hidden; transition: opacity 300ms ease;">
+								<img src="/img/product08.png" alt="">
+								<img role="presentation" src="file:///C:/Users/TG/Desktop/electro/img/product08.png" class="zoomImg" style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 600px; height: 600px; border: none; max-width: none; max-height: none;">
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+					<button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;">Next</button>
+				</div>
+			</div>
+			<!-- /Product main img -->
+			<!-- Product thumb imgs -->
+			<div class="col-md-2  col-md-pull-5">
+				<div id="product-imgs" class="slick-initialized slick-slider slick-vertical">
+					<button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: block;">Previous</button>
+					<div class="slick-list draggable" style="height: 366px; padding: 0px;">
+						<div class="slick-track" style="opacity: 1; height: 1464px; transform: translate3d(0px, -610px, 0px);">
+							<div class="product-preview slick-slide slick-cloned" tabindex="-1" style="width: 122px;" role="tabpanel" aria-describedby="slick-slide-control10" data-slick-index="-4" aria-hidden="true">
+								<img src="/img/product01.png" alt="">
+							</div><div class="product-preview slick-slide slick-cloned" tabindex="-1" style="width: 122px;" role="tabpanel" aria-describedby="slick-slide-control11" data-slick-index="-3" aria-hidden="true">
+								<img src="/img/product03.png" alt="">
+							</div><div class="product-preview slick-slide slick-cloned" tabindex="-1" style="width: 122px;" role="tabpanel" aria-describedby="slick-slide-control12" data-slick-index="-2" aria-hidden="true">
+								<img src="/img/product06.png" alt="">
+							</div><div class="product-preview slick-slide slick-cloned" tabindex="-1" style="width: 122px;" role="tabpanel" aria-describedby="slick-slide-control13" data-slick-index="-1" aria-hidden="true">
+								<img src="/img/product08.png" alt="">
+							</div><div class="product-preview slick-slide" tabindex="-1" style="width: 122px;" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10" data-slick-index="0" aria-hidden="true">
+								<img src="/img/product01.png" alt="">
+							</div><div class="product-preview slick-slide slick-active" tabindex="-1" style="width: 122px;" role="tabpanel" id="slick-slide11" aria-describedby="slick-slide-control11" data-slick-index="1" aria-hidden="false">
+								<img src="/img/product03.png" alt="">
+							</div><div class="product-preview slick-slide slick-current slick-active slick-center" tabindex="0" style="width: 122px;" role="tabpanel" id="slick-slide12" aria-describedby="slick-slide-control12" data-slick-index="2" aria-hidden="false">
+								<img src="/img/product06.png" alt="">
+							</div><div class="product-preview slick-slide slick-active" tabindex="0" style="width: 122px;" role="tabpanel" id="slick-slide13" aria-describedby="slick-slide-control13" data-slick-index="3" aria-hidden="false">
+								<img src="/img/product08.png" alt="">
+							</div><div class="product-preview slick-slide slick-cloned" tabindex="-1" style="width: 122px;" role="tabpanel" aria-describedby="slick-slide-control10" data-slick-index="4" aria-hidden="true">
+								<img src="/img/product01.png" alt="">
+							</div><div class="product-preview slick-slide slick-cloned" tabindex="-1" style="width: 122px;" role="tabpanel" aria-describedby="slick-slide-control11" data-slick-index="5" aria-hidden="true">
+								<img src="/img/product03.png" alt="">
+							</div><div class="product-preview slick-slide slick-cloned" tabindex="-1" style="width: 122px;" role="tabpanel" aria-describedby="slick-slide-control12" data-slick-index="6" aria-hidden="true">
+								<img src="/img/product06.png" alt="">
+							</div><div class="product-preview slick-slide slick-cloned" tabindex="-1" style="width: 122px;" role="tabpanel" aria-describedby="slick-slide-control13" data-slick-index="7" aria-hidden="true">
+								<img src="/img/product08.png" alt="">
+							</div>
+						</div>
+					</div><button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;">Next</button>
+				</div>
+			</div>
+			<!-- /Product thumb imgs -->
+			<!-- Product details -->
+			<div class="col-md-5">
+				<div class="product-details">
+					<h2 class="product-name">@Model.Ad</h2>
+					<div>
+						<h3 class="product-price">$@Model.Fiyat</h3>
+						<span class="product-available">In Stock</span>
+					</div>
+					<p>
+						@Model.Aciklama	
+					</p>
+
+					<div class="product-options">
+						<label>
+							Size
+							<select class="input-select">
+								<option value="0">@Model.Size.Adi</option>
+							</select>
+						</label>
+						<label>
+							Color
+							<select class="input-select">
+								<option value="0">@Model.Color.Adi</option>
+							</select>
+						</label>
+					</div>
+
+					<div class="add-to-cart">
+						<div class="qty-label">
+							Qty
+							<div class="input-number">
+								<input type="number">
+								<span class="qty-up">+</span>
+								<span class="qty-down">-</span>
+							</div>
+						</div>
+						<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+					</div>
+
+
+
+
+
+					<ul class="product-links">
+						<li>Share:</li>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+
+				</div>
+			</div>
+			<!-- /Product details -->
+			<!-- Product tab -->
+			<!-- /product tab -->
+		</div>
+		<!-- /row -->
+	</div>
+
+</div>
